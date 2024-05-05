@@ -21,7 +21,7 @@
     chill: boolean;
   }
 
-  const poorDeveloper: Developer<KeyBoardInfo, LifeChill> = {
+  const poorDeveloper: Developer<string, LifeChill> = {
     name: "mahfuj",
     computer: {
       brand: "Dell",
@@ -29,10 +29,7 @@
       processor: "core i5",
     },
     mouse: "A4 tech",
-    keyBoard: {
-      brand: "mechanical",
-      model: "RK R75",
-    },
+    keyBoard: "",
     lifeChill: {
       chill: false,
     },

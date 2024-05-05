@@ -41,13 +41,13 @@
   interface EnrollStudent {
     name: string;
     course: string;
-    email?:string ;
+    email?: string;
   }
 
   const findStudent = AddCourseWithStudent({
     name: "mahfuj",
     course: "next level web dev",
-    email: 'mahfujahamed@gmail.com',
+    email: "mahfujahamed@gmail.com",
   });
   const findStudent1 = AddCourseWithStudent<EnrollStudent>({
     name: "mahfuj",
